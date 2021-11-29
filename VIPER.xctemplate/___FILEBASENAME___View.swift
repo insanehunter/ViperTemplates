@@ -49,7 +49,7 @@ private final class ___VARIABLE_moduleName___CustomViewImpl: UIView, ___VARIABLE
 
 // MARK: - Bindings
 
-extension ___VARIABLE_moduleName___View {
+extension ___VARIABLE_moduleName___CustomViewImpl {
 
     private func setupBindings() {
         let outputs = presenter.bind(inputs: ___VARIABLE_moduleName___Presenter.ViewInputs())
@@ -59,7 +59,7 @@ extension ___VARIABLE_moduleName___View {
 
 // MARK: - Layout
 
-extension ___VARIABLE_moduleName___View {
+extension ___VARIABLE_moduleName___CustomViewImpl {
 
     private func setupSubviews() {
         backgroundColor = UIColor.white

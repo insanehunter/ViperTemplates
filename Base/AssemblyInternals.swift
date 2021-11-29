@@ -1,9 +1,5 @@
-//
-// InvoiceMedia
-//
-// Created by Sergei Cherepanov on 28.11.2021.
-// Copyright © 2021 Coding Team. All rights reserved.
-//
+// ___FILEHEADER___
+// TODO: Fix header
 
 public protocol AssemblyProtocolInternals: AssemblyProtocol {
     static func createRouter<ParentRouterType: AnyObject>(

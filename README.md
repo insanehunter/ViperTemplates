@@ -11,3 +11,5 @@ Works with and without Rx.
 3. Create new VIPER module: select `New File -> VIPER` in an empty group.
 4. Resolve TODOs and customize module.
 
+### Caveats
+By default OS X will block attempts to run `./install.sh` from Downloads folder. Please copy downloaded files somewhere else.

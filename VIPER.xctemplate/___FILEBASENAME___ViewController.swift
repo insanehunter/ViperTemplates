@@ -17,7 +17,7 @@ private final class ___VARIABLE_moduleName___ViewController: UIViewController {
     init(presenter: ___VARIABLE_moduleName___Presenter, viewSetupFunc setupFunc: inout (() -> Void)?) {
         self.presenter = presenter
         super.init(nibName: nil, bundle: nil)
-        customView = ___VARIABLE_moduleName___ViewFactory.create(
+        customView = ___VARIABLE_moduleName___CustomViewFactory.create(
             presenter: presenter, params: ___VARIABLE_moduleName___CustomViewCreationParameters())
         setupFunc = { [weak self] in
             // TODO: Perform additional setup after all VIPER components are configured

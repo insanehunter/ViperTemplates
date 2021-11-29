@@ -10,7 +10,7 @@ private final class ___VARIABLE_moduleName___ViewController: UIViewController {
     typealias PresenterType = ___VARIABLE_moduleName___Presenter
 
     let presenter: ___VARIABLE_moduleName___Presenter
-    let customView: ___VARIABLE_moduleName___CustomView
+    var customView: ___VARIABLE_moduleName___CustomView!
 
     // MARK: - Lifecycle
 

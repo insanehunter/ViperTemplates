@@ -52,7 +52,7 @@ private final class ___VARIABLE_moduleName___CustomViewImpl: UIView, ___VARIABLE
 extension ___VARIABLE_moduleName___CustomViewImpl {
 
     private func setupBindings() {
-        let outputs = presenter.bind(inputs: ___VARIABLE_moduleName___Presenter.ViewInputs())
+        let outputs = presenter.bind(inputs: ___VARIABLE_moduleName___Presenter.InputActions())
     }
 
 }
